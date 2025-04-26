@@ -1,0 +1,144 @@
+
+/*-----------------
+NAVBAR STYLING 
+------------------*/
+@media (max-width: 992px) {
+
+  html{
+    font-size: 55%;
+  }
+
+  section{
+    padding: 10rem 4% 2rem;
+  }
+
+  .navbar .contact-us {
+    margin-left: 0;
+  }
+
+  .navbar-nav {
+    text-align: center;
+  }
+
+  .display-2 {
+    font-size: 6.5rem;
+  }
+
+  .contact-right form textarea{
+    height: 28rem;
+  }
+}
+
+
+
+@media (max-width: 768px) {
+
+  #intro {
+    padding: var(--navbar-height, 50px 0px);
+  }
+
+  #intro .row {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .display-2 {
+    font-size: 4.5rem;
+  }
+
+  .btn-container {
+    justify-content: center;
+  }
+
+  .service-btn {
+    font-weight: bold;
+    padding: 0.6rem 1rem;
+    font-size: 2rem;
+  }
+
+  .about.img-fluid{
+    width: 100%;
+    max-height: 450px;
+  }
+
+  .skills-data{
+    max-width: 450px;
+  }
+
+  /* portfolio */
+
+  .portfolio-container{
+    grid-template-columns: 1fr;
+    margin-top: 1rem;
+  }
+
+  .portfolio-container .portfolio-box:first-child{
+    order: 1;
+  }
+
+  .portfolio-box .live-github a span {
+    display: none;
+  }
+
+  /* contact */
+
+  .contact-section {
+    padding: 2rem 1rem;
+  }
+
+  .contact-left{
+    justify-items: center;
+  }
+
+  .contact-right form .btn-send{
+    align-items: center;
+  }
+
+  .contact-left, .contact-right {
+    flex-basis: 100%;
+    margin-bottom: 2rem;
+  }
+  .social-links a {
+    font-size: 3rem;
+  }
+
+  .contact-right form textarea{
+    height: 20rem;
+  }
+}
+
+
+
+@media (max-width: 380px) {
+  .navbar .navbar-brand span {
+    font-size: 2rem;
+    display: none;
+  }
+
+  .display-2 {
+    font-size: 3rem;
+  }
+
+  .service-btn {
+    font-weight: bold;
+    padding: 0.4rem 0.8rem;
+    font-size: 1.5rem;
+  }
+
+
+  .stats .text {
+    color: var(--olive-green);
+  }
+  
+  .stats p {
+    font-size: 1.6rem !important;
+  }
+  
+  #about .d-block.d-lg-none .btn-primary {
+    margin: 0.3rem;
+  }
+  
+  #about .d-block.d-lg-none .btn-outline-primary {
+    margin: 0.3rem;
+  }
+}
